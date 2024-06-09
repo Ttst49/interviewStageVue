@@ -5,9 +5,6 @@ import {
   FwbNavbarLink,
   FwbNavbarLogo,
 } from "flowbite-vue";
-
-
-
 </script>
 
 <template>
@@ -23,7 +20,7 @@ import {
     </template>
     <template #default="{ isShowMenu }">
       <fwb-navbar-collapse :is-show-menu="isShowMenu">
-        <fwb-navbar-link @click="active" is-active link="#">
+        <fwb-navbar-link is-active link="#">
           <router-link to="/">Home</router-link>
         </fwb-navbar-link>
         <fwb-navbar-link link="">
